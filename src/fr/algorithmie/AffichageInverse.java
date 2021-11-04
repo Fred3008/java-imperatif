@@ -19,8 +19,9 @@ public class AffichageInverse {
 		}
 
 		for (int i = 0; i < arrayCopy.length; i++) {
+			arrayCopy[i] = array[i];
 
-			System.out.println("2e tableau : " + arrayCopy[i] + " 1er tableau " + array[i]);
+			System.out.println("2e tableau : " + arrayCopy[i] + "  1er tableau " + array[i]);
 		}
 
 	}
