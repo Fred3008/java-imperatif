@@ -7,6 +7,7 @@ public class ExerciceAffichageIdentite {
 
 		for (int i = 0; i < 10; i++) {
 
+			//affiche 10fois l'identite
 			String identite = "Frederic Lopes";
 			System.out.println(identite);
 

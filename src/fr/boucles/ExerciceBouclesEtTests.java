@@ -30,7 +30,7 @@ public class ExerciceBouclesEtTests {
 			}
 		}
 
-		// affiche les elements pairs
+		// affiche les entiers pairs
 		for (int i = 0; i <= array.length - 1; i++) {
 
 			if (array[i] % 2 == 0) {
@@ -38,7 +38,7 @@ public class ExerciceBouclesEtTests {
 			}
 
 		}
-		// affiche les elements impairs
+		// affiche les entiers impairs
 
 		for (int i = 0; i < 2; i++) {
 			if (array[i] % 2 == 1) {
@@ -55,7 +55,7 @@ public class ExerciceBouclesEtTests {
 
 		}
 		// affiche les valeurs de l'index impairs du tableau
-	
+
 		for (int i = 1; i <= array.length - 1; i = i + 2) {
 
 			System.out.println(array[i]);

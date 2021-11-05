@@ -13,17 +13,18 @@ public class ExerciceBoucleBase {
 		}
 
 		for (int k = 0; k < 20; k++) {
-			// calcul du num de i;
+			// affiche le nom et prenom 20 fois
 			int num = k + 1;
 			String chaine = "Fredric LOPES " + num;
 			System.out.println(chaine);
 
 		}
-
+		// affiches les entiers pairs de 1 a 99
 		for (int pairs = 1; pairs <= 99; pairs += 2) {
 			int num = pairs + 1;
 			System.out.println(num);
 		}
+		// affiches les entiers impairs de 3 A 99
 
 		for (int impairs = 2; impairs <= 99; impairs += 2) {
 			int num = impairs + 1;
