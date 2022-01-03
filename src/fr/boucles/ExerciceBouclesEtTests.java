@@ -61,6 +61,8 @@ public class ExerciceBouclesEtTests {
 			System.out.println(array[i]);
 
 		}
+		
+		
 
 	}
 
